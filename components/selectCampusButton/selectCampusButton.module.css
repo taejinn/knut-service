@@ -1,0 +1,61 @@
+.button {
+  width: 100%;
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  height: 100px;
+  background-color: white;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+  border: 1px solid #c8c8c8;
+}
+.button:hover {
+  scale: 1.025;
+}
+.button:active {
+  scale: 0.995;
+}
+.button:focus {
+  outline: none;
+}
+
+.icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: fit-content;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.box {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.name {
+  font-family: pretendard, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  height: fit-content;
+}
+
+.address {
+  margin-top: 5px;
+  height: fit-content;
+  font-family: pretendard, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=selectCampusButton.module.css.map */

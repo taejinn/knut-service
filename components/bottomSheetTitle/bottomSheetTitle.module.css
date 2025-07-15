@@ -1,0 +1,47 @@
+.title {
+  font-family: pretendard, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.description {
+  font-family: pretendard, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #505050;
+  margin-bottom: 5px;
+}
+
+.icon {
+  width: 25px;
+  margin-left: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: middle;
+}
+
+.box {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#fixed {
+  position: fixed;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.35);
+  z-index: 50;
+  backdrop-filter: blur(3px);
+  width: calc(100% - 35px);
+  max-width: 480px;
+}
+
+.fixedSpace {
+  height: 60px;
+}
+
+/*# sourceMappingURL=bottomSheetTitle.module.css.map */

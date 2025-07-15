@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  width: fit-content;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  height: 100%;
+}
+
+.name {
+  font-family: pretendard, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+#active {
+  font-weight: 600;
+}
+
+.icon {
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=footerMenuItem.module.css.map */

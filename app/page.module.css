@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Giants-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.main {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto auto;
+}
+
+.big_text {
+  font-family: pretendard, sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 35px;
+  user-select: none;
+}
+
+#slogan {
+  font-family: Giants-Bold, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(89, 0, 0), rgb(13, 46, 139));
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.time {
+  margin: 20px auto auto;
+  border-radius: 25px;
+  width: fit-content;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  user-select: none;
+}
+.time .now {
+  font-family: pretendard, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  user-select: none;
+  text-align: center;
+  height: fit-content;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  color: black;
+}
+.time .text {
+  font-family: pretendard, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  user-select: none;
+  text-align: center;
+  vertical-align: bottom;
+  height: fit-content;
+  color: black;
+}
+
+.bar {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #d2d2d2;
+  margin: 20px auto auto;
+}
+
+@media (max-width: 540px) {
+  .main {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+  }
+  .bar {
+    width: calc(100% - 70px);
+  }
+}
+
+/*# sourceMappingURL=page.module.css.map */

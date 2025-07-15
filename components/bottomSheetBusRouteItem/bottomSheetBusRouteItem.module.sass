@@ -1,0 +1,91 @@
+
+.box
+  display: flex
+  margin-top: 20px
+
+.circle
+  width: 25px
+  height: 25px
+  background-color: #c8c8c8
+  border-radius: 100%
+
+.busstop
+  display: flex
+  flex-direction: column
+  margin-left: 30px // 29.5px
+  margin-top: -6.5px
+
+  // height -> 37.71px -> 38px
+
+  .name
+    font-family: pretendard,sans-serif
+    font-weight: 600
+    font-size: 17px
+    color: black
+
+  .code
+    font-family: pretendard,sans-serif
+    font-weight: 400
+    font-size: 15px
+    color: #737373
+
+.top_line
+  position: absolute
+  border: 2px solid #c8c8c8
+  height: 25px
+  margin-left: 11px
+  margin-top: -20px
+
+.bottom_line
+  position: absolute
+  border: 2px solid #c8c8c8
+  height: 25px
+  margin-left: 11px
+  margin-top: 25px
+
+.now
+  position: absolute
+  width: 12px
+  height: 12px
+  background-color: #00c300
+  border-radius: 100%
+  margin-left: 6.5px
+  margin-top: 6.5px
+  animation-duration: 1.2s
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+  animation-name: status_success
+  outline: 3px solid white
+
+@keyframes status_success
+  0%
+    box-shadow: 0 0 0 0 #00c300
+  50%
+    box-shadow: 0 0 15px 7px #00c300
+  100%
+    box-shadow: 0 0 15px 0 transparent
+
+.now_text
+  z-index: 20
+  font-family: pretendard, sans-serif
+  font-weight: 500
+  font-size: 12px
+  background-color: #500000
+  position: absolute
+  padding: 4px 7px
+  border-radius: 5px
+  //box-shadow: 0 3px 7px rgba(175, 175, 175, 0.65)
+  margin-top: -17px
+  margin-left: -16px
+  color: white
+
+.triangle
+  z-index: 20
+  position: absolute
+  width: 0
+  height: 0
+  border-top: 10px solid #500000
+  border-left: 7px solid transparent
+  border-right: 7px solid transparent
+  margin-top: 3px
+  margin-left: 6px

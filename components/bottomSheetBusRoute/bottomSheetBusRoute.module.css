@@ -1,0 +1,53 @@
+.route {
+  display: flex;
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 4px 7px;
+  border-radius: 7px;
+  border: 1px solid #c3c3c3;
+  box-shadow: 0 3px 7px 0 rgba(172, 172, 172, 0.45);
+  height: 30px;
+}
+
+.name {
+  font-family: pretendard, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+  line-height: 23px;
+}
+
+@keyframes status_success {
+  0% {
+    box-shadow: 0 0 0 0 #00c300;
+  }
+  50% {
+    box-shadow: 0 0 15px 0 #00c300;
+  }
+  100% {
+    box-shadow: 0 0 15px 0 transparent;
+  }
+}
+#status_success {
+  background-color: #00c300;
+  animation-name: status_success;
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  margin-top: 5.5px;
+  margin-left: 5px;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.items {
+  margin-top: 30px;
+  position: relative;
+  margin-left: 16px;
+}
+
+/*# sourceMappingURL=bottomSheetBusRoute.module.css.map */

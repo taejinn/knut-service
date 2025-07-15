@@ -1,0 +1,73 @@
+.refresh
+  display: flex
+  flex-direction: row
+  width: fit-content
+  padding: 0 20px
+  //height: calc(35px + 12px)
+  height: 45px
+  background-color: rgba(255, 255, 255, 0.5)
+  align-content: center
+  justify-content: center
+  user-select: none
+  position: fixed
+  backdrop-filter: blur(3px)
+  box-shadow: 0 3px 15px 0 rgba(170, 170, 170, 0.3)
+  transform: translate(-50%)
+  left: 50%
+  border-radius: 30px
+  margin-top: 15px
+  border: 1px solid #dcdcdc
+  //background-color: blue
+  z-index: 10
+
+  .icon
+    //margin-top: 7.5px
+    line-height: 45px
+    color: black
+
+  .text
+    margin-left: 5px
+    font-size: 15px
+    font-family: pretendard,sans-serif
+    font-weight: 500
+    color: black
+    //height: fit-content
+    line-height: 45px
+
+.marker_name
+  background-color: rgba(255, 255, 255, 0.5)
+  padding: 7px 12px
+  border-radius: 15px
+  border: 2px solid #79ff76
+  box-shadow: 0 5px 15px 0 rgba(165, 165, 165, 1)
+  width: fit-content
+  white-space: nowrap
+  margin-top: -80px
+  margin-left: 4px
+  backdrop-filter: blur(2px)
+
+  .name
+    font-family: pretendard,sans-serif
+    font-size: 17px
+    font-weight: 600
+    color: black
+    user-select: none
+
+.marker_bus
+  background-color: rgba(121, 255, 118, 0.7)
+  padding: 7px 12px
+  border-radius: 15px
+  border: 2px solid #024e00
+  box-shadow: 0 5px 15px 0 rgba(165, 165, 165, 1)
+  width: fit-content
+  white-space: nowrap
+  margin-top: -80px
+  margin-left: 4px
+  backdrop-filter: blur(1px)
+
+  .name
+    font-family: pretendard,sans-serif
+    font-size: 17px
+    font-weight: 800
+    color: black
+    user-select: none
